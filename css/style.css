@@ -16,7 +16,7 @@ img {
 }
 .secao-inicial {
     
-    background-image: url(/assets/imagens/12.jpg);
+    background-image: url(/imagens/12.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -27,15 +27,12 @@ img {
 
     width: 100%;
     height: 100vh;
-
     border-bottom: .1rem solid rgba(124, 0, 128, 0.226);
 }
 .menu-logo {
     width: 5rem;
     height: 5rem;
     margin-left: 1rem;
-    position: fixed;
-
     z-index: 100;
 }
 .menu-bg {
@@ -71,7 +68,7 @@ img {
     background: black;
     color: white;
     text-decoration: none;
-
+    transition: .5s;
 }
 
 .introducao {
@@ -104,7 +101,7 @@ img {
     width: 100%;
     height: 100vh;
 
-    background-image: url(/assets/imagens/8.jpg);
+    background-image: url(/imagens/8.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -124,12 +121,10 @@ img {
     grid-row: 2 /5;
 
     margin-left: 5rem;
-
 }
 .img-principal {
     width: 23rem;
     height: 25rem;
-
     border-radius: 50%;
 }
 .title {
@@ -163,7 +158,7 @@ img {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(8, 1fr);
 
-    background-image: url(/assets/imagens/12.jpg);
+    background-image: url(/imagens/12.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -172,8 +167,7 @@ img {
 }
 .stacks-img1 {
     grid-column: 2 / 6;
-    grid-row: 2 / 3;    
-
+    grid-row: 2 / 3;
 
     display: flex;
     justify-content: space-around;
@@ -199,7 +193,7 @@ img {
     justify-content: space-evenly;
     align-items: center;
 
-    background-image: url(/assets/imagens/12.jpg);
+    background-image: url(/imagens/12.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

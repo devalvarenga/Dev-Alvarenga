@@ -1,0 +1,12 @@
+@media (max-width: 700px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .navbar, .grid-section, .rodape {
+        grid-column: 1;
+      }
+    .grid-section {
+        grid-template-columns: 100px 1fr;
+        grid-gap: 10px;
+    }
+}
