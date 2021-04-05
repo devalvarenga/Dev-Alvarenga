@@ -7,25 +7,32 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/menu-mobile.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script>document.documentElement.className += ' js';</script>
     <title>Document</title>
 </head>
 <body>
   <div class="grid-container">
     <section class="grid-section secao-inicial" #secao-init>
-        <div class="menu-logo" id="init">
+        <div class="menu-logo">
             <a href="index.html" ><img src="imagens/doberman.png" alt=""></a>
         </div>
         <header class="menu-bg">
-                    <div class="menu">
-                        <nav class="navbar menu-js">
-                            <ul>
-                                <li><a href="#rafael">Rafael</a></li>
-                                <li><a href="#stacks">Stacks</a></li>
-                                <li><a href="#portifolio">Portifólio</a></li>
-                            </ul>
-                        </nav>
-                    </div>
+          <div class="menu">
+              <nav class="menu-js">
+                <div class="mobile-menu">
+                  <div class="line1"></div>
+                  <div class="line2"></div>
+                 <div class="line3"></div>
+                </div>
+                  <ul class="nav-list">
+                    <li><a class="btn" href="#rafael">Rafael</a></li>
+                    <li><a class="btn" href="#stacks">Stacks</a></li>
+                    <li><a class="btn" href="#portifolio">Portifólio</a></li>
+                  </ul>
+              </nav>
+          </div>
         </header>
 
         <h1 class="introducao">❰ ❱</h1>
@@ -44,7 +51,7 @@
         <article class="artigo-pessoal">
             <p>Utilizando as principais técnologias do mercado, HTML5, CSS3 puro ou  om Bootstrap, 
                 padronização CSS, React, JavaScript ES6+, desenvolvimento responsivo, semântico para um bom SEO, 
-                focado na acessibilidade, consumo de API. Habilidades em UI Design, </p>
+                focado na acessibilidade, consumo de API. Habilidades em UI Design. </p>
         </article>
 
     </section>
@@ -137,6 +144,7 @@
 
     </footer>
   </div>
+  
     <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
